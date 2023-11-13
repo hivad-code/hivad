@@ -1,0 +1,203 @@
+@media (min-width:320px) and (max-width:575px) {
+    .main-logo {
+      border-left: none;
+      }
+      .nav-list{
+        display: none;
+      }
+      .left-nav input{
+        display: none;
+      }
+      .left-nav .glass-icon{
+        display: none;
+      }
+      .nav-login{
+        display: none;
+      }
+      .bb{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+      }
+      .gg{
+        display: flex;
+        justify-content: space-between;
+        width: 77%;
+      }
+      .main-logo{
+        width: 70px;
+        height: 50px;
+      }
+  }
+  @media (min-width: 576px) { 
+    .left-nav{
+      justify-content: end;
+    }
+    .main-logo {
+      border-left: none;
+      }
+      .nav-list{
+        display: none;
+      }
+      .left-nav input{
+        display: none;
+      }
+      .left-nav .glass-icon{
+        display: none;
+      }
+      .nav-login{
+        display: none;
+      }
+      .main-logo{
+        width: 80px;
+        height: 60px;
+      }
+      .main-logo-wrapper{
+  
+      }
+      .gg{
+     
+        align-items: center!important;
+        width: 58%;
+        justify-content: end;
+    
+     }
+     .bb{
+       
+      align-items: center!important;
+      width: 100%;
+      justify-content: space-between;
+    
+    }
+     
+  }
+  
+  /* Medium devices  */
+  @media (min-width: 768px) {
+  
+  .nav-main .main-logo-wrapper{
+    margin-left: -27px;
+  }
+  .nav-login{
+    margin-right: -86px;
+  }
+  .nav-login a{
+    width: 95px;
+    font-size: 16px;
+  }
+  .person-button{
+    display: none;
+  }
+  .nav-login{
+    display: block;
+  }
+  .gg{
+     
+    align-items: center!important;
+    width: 50%;
+    justify-content: end;
+  
+  }
+  
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {  
+    .hamber-menu{
+      display: none;
+    }
+    .nav-main{
+      width: 100%;
+     
+    }
+    .left-nav{
+      justify-content: start;
+    }
+    .nav-list li a{
+      font-size: 16px;
+    }
+    .left-nav input{
+      width: 160px;
+    }
+    .main-logo{
+      width: 100px;
+      height: 80px;
+    }
+    .nav-login{
+      margin-right: 10px;
+      margin-left: -75px;
+    }
+    .nav-login a{
+      width: 95px;
+      font-size: 16px;
+    }
+    .nav-list{
+      padding-right: 5px !important;
+    }
+    .nav-login a:first-child {
+     
+      padding-right: 15px;
+  }
+  .left-nav input:focus{
+    width: 175px;
+  
+  
+    
+  }
+  .nav-main .main-logo-wrapper{
+    margin-left: 0;
+   }
+  .gg{
+    width: 62%;
+  }
+  .left-nav input{
+    display: block;
+  }
+  .left-nav .glass-icon{
+    display: block;
+  }
+  .main-logo {
+    border-left: 1px solid #dcd7d7;
+    }
+   
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    
+    .left-nav input{
+      width: 198px;
+    }
+    .main-logo{
+      width: 130px;
+      height: 90px;
+      padding-left: 12px;
+    }
+    .left-nav{
+      justify-content: end;
+    }
+    .nav-list li a{
+      font-size: 16px;
+    }
+    .nav-login{
+      margin-right: 20px;
+      margin-left: -45px;
+    }
+    .left-nav input:focus{
+      width: 225px;
+      border: 1px solid #969494;
+    
+      
+    }
+    .nav-login a{
+      width: 100px;
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 1200px){
+    .left-nav input:focus{
+      width: 235px;
+      border: 1px solid #969494;
+    
+      
+    }
+  }
